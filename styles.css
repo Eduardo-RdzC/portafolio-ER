@@ -1,0 +1,123 @@
+:root{
+    color: white;
+    color: aquamarine;
+    color: black;
+    color: #33DDFF;
+    
+}
+*, 
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body{
+    color: black;
+    font-size: 1.6rem;
+}
+
+.header{
+   color: #33DDFF;
+} 
+
+.nav-redes{
+    @media (min-width:768px) {
+        
+    display: flex;
+    column-gap: 30rem;
+    justify-content: center;
+    grid-template-columns: center;
+    position: relative;
+    padding-top: 5rem;
+
+    }
+}
+
+.contenedor{
+
+    h1{
+        text-align: center;
+        color: black;
+        text-transform: uppercase;
+        font-family: "Josefin Sans", sans-serif;
+    }
+
+    p{
+        text-align: center;
+        font-weight: 800;
+        font-family: "Josefin Sans", sans-serif;
+    }
+
+}
+.contenido-header{
+    font-family: "Josefin Sans", sans-serif;
+   @media (min-width: 480px) {
+        text-align: center;
+        position: inherit;
+        top: 0;
+        
+   }
+}
+.navegacion-principal{
+    justify-content: space-between;
+    text-decoration: none;
+    cursor: pointer;
+    
+}
+
+.navegacion-principal a{
+    text-decoration: none;
+    font-weight: 800;
+    text-align: justify;
+    font-family: "Josefin Sans", sans-serif;
+}
+h2{
+    text-align: center;
+    top: 10%;
+    text-transform: uppercase;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+h3{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+
+ul{
+    text-decoration: none;
+}
+
+li{
+    text-decoration: none;
+}
+.p{
+
+    justify-content: center;
+    font-family: "Josefin Sans", sans-serif;
+    
+}
+.enlace-portafolio{
+    font-family: "Josefin Sans", sans-serif;
+    @media (min-width: 480px) {
+         grid-template-columns: (1, 2fr);
+    }
+    display: grid;
+    grid-template-columns: auto;
+}
+
+.acerca{
+    font-family: "Josefin Sans", sans-serif;
+    padding: 5rem;
+}
+
+.personales{
+    font-family: "Josefin Sans", sans-serif;
+    padding: 5rem;
+}
+
+.proyecto{
+    font-family: "Josefin Sans", sans-serif;
+    padding: 5rem;
+}
